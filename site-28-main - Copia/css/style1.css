@@ -48,6 +48,8 @@
 
 
 
+
+
 .item {
   text-align: center;
 }
@@ -175,12 +177,12 @@ button {
 .carousel1 {
   display: flex;
   transition: transform 0.5s ease-in-out;
-  width: 4000px; /* Largura total do carrossel - 4 painéis * 1100px */
+  width: 4800px; /* Largura total do carrossel - 4 painéis * 1100px */
 }
 
 .panel1 {
-  width: 1000px;
-  height: 350px;
+  width: 1200px;
+  height: 400px;
   box-sizing: border-box;
   display: flex;
   justify-content: center;
@@ -203,7 +205,7 @@ button {
 
 .Popular{
     width: 1920px;
-    height: 600px;
+    height: 1200px;
 
     
 }
@@ -221,9 +223,9 @@ button {
 
 .justify-itemsa {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: repeat(1, 100px);
-  height: 500px;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 400px);
+  height: 800px;
   width: 100vw;
 }
 
@@ -270,6 +272,11 @@ button {
   }
   #img3{
     background-image: url(../img/conjunto-img/Parque\ natural\ nova\ iguacu.jpg);
+    
+  }
+
+  #img4{
+    background-image: url(../img/conjunto-img/Xavier.jpg);
     
   }
 
@@ -336,11 +343,31 @@ button {
       .carousel-container{
         display: none;
       }      .justify-itemsa{
-        grid-template-columns: repeat(1, 1fr);
-        grid-template-rows: repeat(3, 400px);
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 400px);
+        height: 800px;
       
       }
+
+      #fundo p{
+    
+        padding-top: 90px;
+        padding-left: 60px;
+        font-size: 30px;
+        font-family: var(--ubunto);
+        width: 800px;
+        color: white;
+      }
+
+      .img_fund{
+        float: right;
+        margin-left: 90px;
+        margin-top: 50px;
+
+
+    }
+
+    #pops{width: 1300px;}
       
         
   }
-      
