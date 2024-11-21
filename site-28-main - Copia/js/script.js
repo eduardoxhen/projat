@@ -26,7 +26,7 @@ function updateCarousel() {
 updateCarousel();
 
 let currentPanel1 = 1;
-const panelWidth1 = 1000; // Largura de cada painel
+const panelWidth1 = 1200; // Largura de cada painel
 const totalPanels2 = 4; // Número total de painéis
 
 function changePanel2(direction) {
